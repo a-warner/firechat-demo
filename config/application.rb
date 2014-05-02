@@ -13,6 +13,8 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+Dotenv.load
+
 module FirechatDemo
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
@@ -26,5 +28,7 @@ module FirechatDemo
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+
+    config.assets.paths << Rails.root.join('firechat', 'dist', '0.1.5')
   end
 end

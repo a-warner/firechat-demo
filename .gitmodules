@@ -1,0 +1,3 @@
+[submodule "firechat"]
+	path = firechat
+	url = https://github.com/firebase/firechat

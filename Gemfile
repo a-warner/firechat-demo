@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem "decent_exposure"
 gem "decent_generators"
+gem "dotenv"
+gem "firebase_token_generator"
 gem "haml"
 gem "haml-rails"
 gem "pg"
