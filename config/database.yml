@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  database: firechat-demo-dev
+  pool: 10
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  database: firechat-demo-test
+  pool: 10
+  timeout: 5000
