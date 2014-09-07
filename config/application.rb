@@ -29,6 +29,6 @@ module FirechatDemo
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
-    config.assets.paths << Rails.root.join('firechat', 'dist', '0.1.5')
+    config.assets.paths << Rails.root.join('firechat', 'dist', '0.1.6')
   end
 end
