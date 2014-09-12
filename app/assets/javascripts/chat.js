@@ -4,6 +4,4 @@ $(function() {
   chatRef.auth($el.data('auth-token'))
   var chat = new FirechatUI(chatRef, $el)
   chat.setUser('1', 'Andrew Warner')
-
-  chat._bindUIEvents()
 })
